@@ -1,0 +1,11 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "managed",
+      "name": "C:\\Users\\Admin\\Source\\Repos\\Job_Project",
+      "project": ""
+    }
+  ]
+}
