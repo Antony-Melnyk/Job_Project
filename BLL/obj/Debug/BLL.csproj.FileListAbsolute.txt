@@ -1,0 +1,5 @@
+C:\Users\user.STEP.008\Source\Repos\Job_Project2\BLL\bin\Debug\BLL.dll
+C:\Users\user.STEP.008\Source\Repos\Job_Project2\BLL\bin\Debug\BLL.pdb
+C:\Users\user.STEP.008\Source\Repos\Job_Project2\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\user.STEP.008\Source\Repos\Job_Project2\BLL\obj\Debug\BLL.dll
+C:\Users\user.STEP.008\Source\Repos\Job_Project2\BLL\obj\Debug\BLL.pdb

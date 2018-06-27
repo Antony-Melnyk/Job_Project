@@ -17,4 +17,3 @@ C:\Users\user.STEP.008\Source\Repos\Job_Project2\WpfApp1\obj\Debug\WpfApp1.cspro
 C:\Users\user.STEP.008\Source\Repos\Job_Project2\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
 C:\Users\user.STEP.008\Source\Repos\Job_Project2\WpfApp1\obj\Debug\WpfApp1.exe
 C:\Users\user.STEP.008\Source\Repos\Job_Project2\WpfApp1\obj\Debug\WpfApp1.pdb
-C:\Users\user.STEP.008\Source\Repos\Job_Project2\WpfApp1\obj\Debug\WpfApp1.csprojResolveAssemblyReference.cache
