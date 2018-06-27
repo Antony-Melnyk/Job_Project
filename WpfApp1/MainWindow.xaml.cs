@@ -20,6 +20,23 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
+            ButtonClickRegistration(null, null);
+        }
+
+        private void ButtonClickSignIn(object sender, RoutedEventArgs e)
+        {
+            Height = 243;
+            ButtonOK.Content = "OK [ SIGN IN ]";
+        }
+
+        private void ButtonClickRegistration(object sender, RoutedEventArgs e)
+        {
+            Height = 440;
+            ButtonOK.Content = "OK [ REGISTRATION ]";
+        }
+
+        private void ButtonClickOK(object sender, RoutedEventArgs e)
+        {
 
         }
     }
