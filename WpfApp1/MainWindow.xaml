@@ -6,17 +6,67 @@
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
         TextElement.FontWeight="Regular"
-        TextElement.FontSize="13"
+        TextElement.FontSize="20"
         TextOptions.TextFormattingMode="Ideal"
         TextOptions.TextRenderingMode="Auto"
         Background="{DynamicResource MaterialDesignPaper}"
         FontFamily="{DynamicResource MaterialDesignFont}"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Sign In / Registration" Height="440" Width="350" ResizeMode="NoResize">
     <Grid>
-        <materialDesign:Card Padding="32" Margin="16">
-            <TextBlock Style="{DynamicResource MaterialDesignTitleTextBlock}">My First Material Design App</TextBlock>
+        <materialDesign:Card VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="10" Name="Card1">
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+
+                <Button Grid.Column="1" Background="DodgerBlue" BorderBrush="White" FontWeight="Bold" Content="REGISTRATION" Click="ButtonClickRegistration" Margin="5,4,10,4"/>
+                <Button Grid.Column="0" Background="DodgerBlue" BorderBrush="White" FontWeight="Bold" Content="SIGN IN" Click="ButtonClickSignIn" Margin="10,4,0,4"/>
+
+                <Grid Grid.Row="1" Grid.ColumnSpan="2" Name="GridRegistr">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Text="Login" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <TextBox Grid.Column="1" Name="textBoxLogin" Margin="0,0,10,0"/>
+                    <TextBlock Text="Password" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1"/>
+                    <PasswordBox Grid.Column="1" Grid.Row="1" Name="textBoxPassword" FontSize="10" Margin="0,0,10,0"/>
+                    <TextBlock Text="First Name" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="2"/>
+                    <TextBox Grid.Column="1" Grid.Row="2" Name="textBoxFName" Margin="0,0,10,0"/>
+                    <TextBlock Text="Surname" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="3"/>
+                    <TextBox Grid.Column="1" Grid.Row="3" Name="textBoxSName" Margin="0,0,10,0"/>
+                    <TextBlock Text="Displayed nickname" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="4" FontSize="15"/>
+                    <TextBox Grid.Column="1" Grid.Row="4" Name="textBoxNickName" Margin="0,0,10,0"/>
+                    <TextBlock Text="Age" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="5"/>
+                    <TextBox Grid.Column="1" Grid.Row="5" Name="textBoxAge" Margin="0,0,10,0"/>
+                    <TextBlock Text="Email" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="6"/>
+                    <TextBox Grid.Column="1" Grid.Row="6" Name="textBoxEmail" Margin="0,0,10,0"/>
+                </Grid>
+
+                <Button Grid.Row="1" Grid.ColumnSpan="2" Content="OK" FontWeight="Bold" Background="ForestGreen" VerticalAlignment="Bottom" Margin="10,0,10,4" Name="ButtonOK" Click="ButtonClickOK"/>
+            </Grid>
         </materialDesign:Card>
 
     </Grid>
