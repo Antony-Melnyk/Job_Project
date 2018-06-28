@@ -7037,7 +7037,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\user.STEP.008\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -7045,14 +7045,14 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\Job_Project\\Job_Project\\Job_Project.csproj",
+      "projectUniqueName": "C:\\Users\\user.STEP.008\\Source\\Repos\\Job_Project2\\Job_Project\\Job_Project.csproj",
       "projectName": "Job_Project",
-      "projectPath": "C:\\Users\\Admin\\source\\repos\\Job_Project\\Job_Project\\Job_Project.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\source\\repos\\Job_Project\\Job_Project\\obj\\",
+      "projectPath": "C:\\Users\\user.STEP.008\\Source\\Repos\\Job_Project2\\Job_Project\\Job_Project.csproj",
+      "packagesPath": "C:\\Users\\user.STEP.008\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user.STEP.008\\Source\\Repos\\Job_Project2\\Job_Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user.STEP.008\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
