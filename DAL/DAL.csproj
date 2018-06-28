@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\IDal.cs" />
+    <Compile Include="Concrete\CustomInit.cs" />
     <Compile Include="Concrete\DataEntity.cs" />
     <Compile Include="Concrete\DefaultDal.cs" />
     <Compile Include="Concrete\Model1.cs" />

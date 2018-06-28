@@ -1,21 +1,24 @@
-﻿using DAL.Abstract;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DAL;
+using BLL.Abstract;
+using DAL.Abstract;
 
-namespace DAL.Concrete
+namespace BLL
 {
-    public class DefaultDal : IDal
+    class Operations : IMyBll
     {
-        private readonly DbContext _ctx;
-        public DefaultDal(DbContext ctx)
+        private readonly IDal _dal;
+
+        public Operations(IDal dal)
         {
-            _ctx = ctx;
+            _dal = dal;
         }
-        public bool Registration(string name, string sname, string tname, string nickname, string password, int age, string email)
+
+        public bool Registration(string name, string sname, string tname, string nickname, string password, string phonenumber, string city, int age, string email)
         {
             User user = new User
             {
@@ -24,10 +27,12 @@ namespace DAL.Concrete
                 TName = tname,
                 NickName = nickname,
                 Password = password,
+                PhoneNumber = phonenumber,
+                City = city,
                 Age = age,
                 Email = email,
                 ImgPath = null
-
+              
             };
 
             using (Model1 m1 = new Model1())
@@ -53,7 +58,7 @@ namespace DAL.Concrete
             }
         }
 
-        public void AddJob(string name, DAL.Type type, int salary, string info, string path, User user)
+        public void AddJob(string name, DAL.Type type ,int salary, string info, string path, User user)
         {
             Job job = new Job
             {
@@ -77,13 +82,10 @@ namespace DAL.Concrete
             {
                 m1.Jobs.Remove(a);
                 m1.SaveChanges();
+                _dal?.DelJob(a);
             }
         }
-        //public string GetDataById(int id)
-        //{
-        //    //return (_ctx as DBmodel).DataEntities.Single(d => d.Id == id).Data;
-        //    //return _ctx?.Set<User>().Single(d => d.Id == id);
 
-        //}
+
     }
 }
