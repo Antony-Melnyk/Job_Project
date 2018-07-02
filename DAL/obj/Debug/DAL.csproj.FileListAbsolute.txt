@@ -1,0 +1,23 @@
+C:\Users\user.STEP.008\Source\Repos\Job_Project2\DAL\bin\Debug\DAL.dll
+C:\Users\user.STEP.008\Source\Repos\Job_Project2\DAL\bin\Debug\DAL.pdb
+C:\Users\user.STEP.008\Source\Repos\Job_Project2\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\user.STEP.008\Source\Repos\Job_Project2\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\user.STEP.008\Source\Repos\Job_Project2\DAL\obj\Debug\DAL.dll
+C:\Users\user.STEP.008\Source\Repos\Job_Project2\DAL\obj\Debug\DAL.pdb
+C:\Users\Shinigami Ningen\Source\Repos\Job_Project\DAL\bin\Debug\DAL.dll
+C:\Users\Shinigami Ningen\Source\Repos\Job_Project\DAL\bin\Debug\DAL.pdb
+C:\Users\Shinigami Ningen\Source\Repos\Job_Project\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\Shinigami Ningen\Source\Repos\Job_Project\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Shinigami Ningen\Source\Repos\Job_Project\DAL\obj\Debug\DAL.dll
+C:\Users\Shinigami Ningen\Source\Repos\Job_Project\DAL\obj\Debug\DAL.pdb
+C:\Users\User.STEP.002\Source\Repos\NewRepo\DAL\bin\Debug\DAL.dll.config
+C:\Users\User.STEP.002\Source\Repos\NewRepo\DAL\bin\Debug\DAL.dll
+C:\Users\User.STEP.002\Source\Repos\NewRepo\DAL\bin\Debug\DAL.pdb
+C:\Users\User.STEP.002\Source\Repos\NewRepo\DAL\bin\Debug\EntityFramework.dll
+C:\Users\User.STEP.002\Source\Repos\NewRepo\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User.STEP.002\Source\Repos\NewRepo\DAL\bin\Debug\EntityFramework.xml
+C:\Users\User.STEP.002\Source\Repos\NewRepo\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User.STEP.002\Source\Repos\NewRepo\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\User.STEP.002\Source\Repos\NewRepo\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\User.STEP.002\Source\Repos\NewRepo\DAL\obj\Debug\DAL.dll
+C:\Users\User.STEP.002\Source\Repos\NewRepo\DAL\obj\Debug\DAL.pdb
