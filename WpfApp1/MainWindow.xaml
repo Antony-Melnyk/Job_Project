@@ -69,5 +69,15 @@
             </Grid>
         </materialDesign:Card>
 
+        <materialDesign:PopupBox DockPanel.Dock="Right" PlacementMode="BottomAndAlignRightEdges" StaysOpen="False">
+            <StackPanel>
+                <Button Content="Hello World" Click="Button_Click_1"/>
+                <Button Content="Nice Popup" Click="Button_Click_2"/>
+                <Button Content="Can't Touch This" IsEnabled="False" />
+                <Separator/>
+                <Button Content="Goodbye" Click="Button_Click"/>
+            </StackPanel>
+        </materialDesign:PopupBox>
     </Grid>
+    
 </Window>

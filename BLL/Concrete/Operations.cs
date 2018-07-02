@@ -86,6 +86,9 @@ namespace BLL
             }
         }
 
-
+        public bool Registration(string name, string sname, string tname, string nickname, string password, int age, string email)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
